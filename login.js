@@ -19,7 +19,7 @@ function myFunction(){
 				}  
 			  else if(pass.length<6){  
 				alert("Password must be at least 6 characters long.");  
-				return false;  
+				return true;  
 				}  
 				else if (pass != pass1) {
 					//alert("Passwords Do not match");
